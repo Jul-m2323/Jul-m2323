@@ -12,15 +12,15 @@
     <div>
         <button class="nav-button" id="btn"><span>☰</span></button>
         <nav id="nav">
-            <ul>
-              <li><a href="index.html">Sobre Mi</a></li>
-              <li><a href="proyectos.html">Proyectos</a></li>
-              <li><a href="contactame.html">Contactame</a></li>
-            </ul>
-            <ul class="links">
-              <li><a href="https://github.com/Jul-m2323"><i class="fa-brands fa-github"></i></a></li>
-              <li>><a href="https://www.linkedin.com/in/julian-ezequiel-mora-arcagni-b332351b7/"><i class="fa-brands fa-linkedin"></i>></a></li>
-            </ul>
+          <ul>
+            <li><a class="link" href="index.html">Sobre Mi</a></li>
+            <li><a class="link" href="proyectos.html">Proyectos</a></li>
+            <li><a class="link" href="contactame.html">Contactame</a></li>
+          </ul>
+          <ul class="links">
+            <li><a class="link" href="https://github.com/Jul-m2323"><i class="fa-brands fa-github"></i></a></li>
+            <li><a class="link" href="https://www.linkedin.com/in/julian-ezequiel-mora-arcagni-b332351b7/"><i class="fa-brands fa-linkedin"></i></a></li>
+          </ul>
           </nav>
       </div>
     <div class="contact-container">
@@ -28,10 +28,14 @@
         <form action="https://formsubmit.co/unqju.mo@outlook.com.ar" method="POST">
             <input class="text-container" type="text" name="name" required>
             <input type="email" name="email" placeholder="E-mail" required>
-            <button type="submit">Enviar</button>
+            <button id="enviar" type="submit">Enviar</button>
         </form> 
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>       
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>       
+<script src="js/wow.js"></script>
+<script type="text/javascript">
+new WOW().init();
+</script>
 </body>
 </html>

@@ -1,5 +1,8 @@
+
+
 const btn = document.getElementById('btn');
 const nav = document.getElementById('nav');
+const enviar = document.getElementById('enviar');
 const proyectosId = document.getElementById('proyectos');
 
 
@@ -15,7 +18,7 @@ for (element of proyectos){
         <div>
             <div>
                 <h3>${element.name}</h3>
-                <span><a src="${element.pag}"></a>Visitar</span>
+                <span><a href="${element.pag}">Visitar</a></span>
             </div>
             <img src="${element.img}" alt="${element.name}">
         </div>
@@ -26,4 +29,19 @@ btn.addEventListener("click", () => {
     nav.classList.toggle('active');
     btn.classList.toggle('active');
 })
+function createHeart () {
+    const heart = document.createElement('i');
+    heart.classList.add('heart');
+    heart.style.left = Math.random() * 100 + 'vw';
+    heart.style.animationDuration = 5000 + 'ms';
+    heart.innerText = '❤️';
 
+    document.body.appendChild(heart);
+    setTimeout(() => {
+        heart.remove();
+    }, 5000);
+}
+
+enviar.addEventListener("click", () => {
+    setInterval(createHeart, 400);
+})

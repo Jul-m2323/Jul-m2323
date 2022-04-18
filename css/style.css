@@ -34,6 +34,18 @@ body{
     transform: translateX(-125px);
 }
 
+.link:link{
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+.link:active{
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+.link:visited{
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
 .links{
     display: flex;
     flex-direction: row;
@@ -60,6 +72,7 @@ nav{
 nav.active{
     transform: translateX(0);
 }
+
 
 nav ul {
     padding: 1rem;
@@ -90,12 +103,8 @@ nav ul li {
 .presentacion p {
     padding: 1rem;
 }
-
 .foto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+    border-radius: 100%;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     margin: 10px;
     width: 225px;
@@ -158,6 +167,18 @@ form{
     font-size: 1.2rem;
     margin-top: 10px;
     cursor: pointer;
+}
+
+.heart{
+    position: fixed;
+    top: -1vh;
+    transform: translateX(0);
+    animation: fall 3s linear;
+}
+@keyframes fall {
+    to{
+        transform: translateY(105vh);
+    }
 }
 
 .proyectosFull{
