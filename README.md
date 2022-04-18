@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Jul-m2323
-- 👀 I’m interested in Web design 
+- 👀 I’m interested in Web design, music and art in general 
 - 🌱 I’m currently learning Web design Full Stack and Music and Tech in U.N.Q.
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me unqju.mo@outlook.com
