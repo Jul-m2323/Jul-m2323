@@ -15,7 +15,7 @@ const proyectos = [
 
 for (element of proyectos){
     $("#proyectos").append(`
-        <div>
+        <div class="">
             <div>
                 <h3>${element.name}</h3>
                 <span><a href="${element.pag}">Visitar</a></span>

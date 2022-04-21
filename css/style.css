@@ -14,6 +14,9 @@ body{
     padding: 0;
     margin: 0;
     height: 100vh;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(236, 236, 236);
 }
 .nav-button{
     background-color: #6643b5;
@@ -29,6 +32,7 @@ body{
 }
 .nav-button span{
     font-size: 20px;
+    color: rgb(236, 236, 236);
 }
 .nav-button.active{
     transform: translateX(-125px);
@@ -36,15 +40,15 @@ body{
 
 .link:link{
     text-decoration: none;
-    color: rgb(27, 27, 27);
+    color: rgb(236, 236, 236);
 }
 .link:active{
     text-decoration: none;
-    color: rgb(27, 27, 27);
+    color: rgb(236, 236, 236);
 }
 .link:visited{
     text-decoration: none;
-    color: rgb(27, 27, 27);
+    color: rgb(236, 236, 236);
 }
 .links{
     display: flex;
@@ -102,6 +106,13 @@ nav ul li {
 
 .presentacion p {
     padding: 1rem;
+    color: rgb(236, 236, 236);
+}
+
+.presentacion h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
 }
 .foto{
     border-radius: 100%;
@@ -206,13 +217,14 @@ form{
     flex-direction: row;
     justify-content: center;
     margin-top: -45rem;
+    color: rgb(236, 236, 236);
 }
 .proyectos img{
     width: 300px;
     height: 175px; 
     margin-top: -2rem;
     margin: 1rem;
-    box-shadow: -6px 5px 19px 0px rgba(0,0,0,0.5);
+    box-shadow: -6px 5px 19px 0px rgba(0,0,0,0.5);;
 }
 .proyectos h1{
     font-size: 2rem;
@@ -232,4 +244,17 @@ form{
     font-weight: bold;
     margin-right: -1rem;
     margin-bottom: -10px
+} 
+.proyectos span a:link{
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.proyectos span a:active{
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+}
+.proyectos span a:visited{
+    text-decoration: none;
+    color: rgb(236, 236, 236);
 }
