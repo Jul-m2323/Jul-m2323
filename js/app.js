@@ -34,7 +34,7 @@ function createHeart () {
     heart.classList.add('heart');
     heart.style.left = Math.random() * 100 + 'vw';
     heart.style.animationDuration = 5000 + 'ms';
-    heart.innerText = '❤️';
+    heart.innerText = '';
 
     document.body.appendChild(heart);
     setTimeout(() => {
