@@ -13,7 +13,7 @@ function setup () {
 }
 
 function draw (){
-    background(0);
+    background(0, 10);
     for(let i = 0; i < num; i++){
         let p = particulas[i]
         point(p.x, p.y);
