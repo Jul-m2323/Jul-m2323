@@ -7,7 +7,7 @@ const proyectosId = document.getElementById('proyectos');
 
 
 const proyectos = [
-    {img: "multimedia/paint-app.png",pag:"https://jul-m2323.github.io/DrawingApp_JS/", name: "Paint App"},
+    {img: "multimedia/drum-kit.png",pag:"https://jul-m2323.github.io/DrumkitJS/", name: "DrumKit"},
     {img: "multimedia/quiz-app.png",pag:"https://jul-m2323.github.io/QuizAppJS/", name: "Quiz App"},
     {img: "multimedia/slappy-diy-shop.png",pag:"https://jul-m2323.github.io/slappy_DIY_mora/shop.html", name: "Slappy DIY Shop"},
     {img: "multimedia/todo-app.png",pag:"https://jul-m2323.github.io/Todo-appJS/", name: "Todo App"}
@@ -32,7 +32,7 @@ btn.addEventListener("click", () => {
 function createHeart () {
     const heart = document.createElement('i');
     heart.classList.add('heart');
-    heart.style.left = Math.random() * 100 + 'vw';
+    heart.style.left = Math.random() * 100 + 'vw';dd
     heart.style.animationDuration = 5000 + 'ms';
     heart.innerText = '';
 

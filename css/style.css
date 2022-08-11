@@ -22,7 +22,7 @@ canvas{
     display: block;
 }
 .nav-button{
-    background-color: #6643b5;
+    background-color: #cfd3d4;
     box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.55);
     border: none;
     border-radius: 50%;
@@ -35,7 +35,7 @@ canvas{
 }
 .nav-button span{
     font-size: 20px;
-    color: rgb(236, 236, 236);
+    color: rgb(15, 15, 15);
 }
 .nav-button.active{
     transform: translateX(-125px);
@@ -43,15 +43,16 @@ canvas{
 
 .link:link{
     text-decoration: none;
-    color: rgb(236, 236, 236);
+    color: rgb(6, 6, 6);
+    
 }
 .link:active{
     text-decoration: none;
-    color: rgb(236, 236, 236);
+    color: rgb(6, 6, 6);
 }
 .link:visited{
     text-decoration: none;
-    color: rgb(236, 236, 236);
+    color: rgb(6, 6, 6);
 }
 .links{
     display: flex;
@@ -60,6 +61,7 @@ canvas{
     margin: 15px;
     margin-top: -30px;
     margin-right: -35px;
+    
 }
 .links i{
     width: 35px;
@@ -71,7 +73,7 @@ nav{
     height: 100vh;
     top: 0;
     right: 1px;
-    background-color:  #6643b5;
+    background-color:  #cfd3d4;
     box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.75);
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out; 
@@ -102,7 +104,7 @@ nav ul li {
     font-weight: 3px;
     width: 600px;
     border-radius: 5px;
-    background-color: #6643b5;
+    background-color: #cfd3d4;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     color: black;
     position: fixed;
@@ -110,19 +112,19 @@ nav ul li {
 
 .presentacion p {
     padding: 1rem;
-    color: rgb(236, 236, 236);
+    color: rgb(6, 6, 6);
 }
 
 .presentacion h1{
     font-size: 2rem;
     font-weight: bold;
-    color: white;
+    color: rgb(6, 6, 6);;
 }
 .foto{
     border-radius: 100%;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     margin: 10px;
-    width: 225px;
+    width: 300px;
     height: 300px;
 }
 
@@ -176,7 +178,7 @@ form{
     align-items: center;
     width: 340px;
     height: 40px;
-    background-color: #6643b5;
+    background-color: #cfd3d4;
     border: none;
     border-radius: 5px;
     color: white;
@@ -217,12 +219,20 @@ form{
 .musica iframe{
     box-shadow: -6px 5px 19px 0px rgba(0,0,0,0.5);
 }
+.musica h2 {
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -3.8rem;
+    margin-right: -10rem;
+}
 
 .proyectos{
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: -45rem;
+    margin-bottom: auto;
     color: rgb(236, 236, 236);
 }
 .proyectos img{

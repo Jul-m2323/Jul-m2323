@@ -1,5 +1,5 @@
 let particulas = [];
-const num = 3000;
+const num = 5000;
 
 const noiseScale = 0.01/2;
 
@@ -8,8 +8,8 @@ function setup () {
     for (let i = 0; i < num; i++) {
         particulas.push(createVector(random(width), random(height)));    
     }
-    strokeWeight(2);
-    stroke(195, 3, 254);
+    strokeWeight(random(1, 9));
+    stroke(random(1, 255), random(1, 255), random(1, 255));
 }
 
 function draw (){
